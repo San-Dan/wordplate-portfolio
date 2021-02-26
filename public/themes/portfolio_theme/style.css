@@ -1,0 +1,65 @@
+/*
+Theme Name: Portfolio theme
+Theme URI:
+Author: Sandra Danielsson
+Author URI:
+Description: A portfolio theme for presenting work and projects.
+Version: 1.0
+*/
+:root {
+  --orange: rgba(246, 132, 26, 1);
+  --pink: rgba(251, 138, 138, 0.81);
+  --dark: rgba(75, 74, 74, 1);
+}
+
+body {
+  background: #fffafa;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--dark);
+}
+
+/* h2 {
+    font-family: Josefin Sans;
+}  */
+
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 140px;
+  padding-top: 10px;
+}
+
+.link-white {
+  color: white;
+}
+
+.footer-icons {
+  height: 40px;
+  width: 40px;
+}
+
+.icon-bg {
+  background-color: white;
+}
+
