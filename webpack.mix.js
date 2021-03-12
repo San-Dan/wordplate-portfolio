@@ -19,6 +19,7 @@ mix.setResourceRoot('../');
 mix.setPublicPath(`public/themes/${theme}/assets`);
 
 mix.js('resources/scripts/app.js', 'app.js');
+mix.postCss('resources/styles/editor.css', 'editor.css');
 mix.postCss('resources/styles/app.css', 'app.css', [
   //
 ]);

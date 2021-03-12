@@ -18,15 +18,15 @@
                         <!-- CLIENT INFO -->
                         <?php $website = get_field('project_client_website');
                             if (!empty($website)): ?>
-                                <p>This project was built for: 
+                                <p>This project was built for:
                                     <a href="<?php the_field('project_client_website'); ?>">
                                         <?php the_field('project_client'); ?>
                                     </a>
-                                </p> 
+                                </p>
                         <?php else: ?>
-                            <p>This project was built for: <?php the_field('project_client'); ?></p> 
+                            <p>This project was built for: <?php the_field('project_client'); ?></p>
                         <?php endif; ?>
-                    
+
                         <!-- TOOLS INFO -->
                     <?php $tools = get_the_terms( $post, 'tool'); ?>
                     <?php if ($tools): ?>

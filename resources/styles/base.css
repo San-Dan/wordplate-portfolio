@@ -1,0 +1,47 @@
+html {
+  min-height: 100vh;
+}
+body {
+  background:snow;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+:root {
+  --orange: rgba(246, 132, 26, 1);
+  --pink: rgba(251, 138, 138, 0.81);
+  --dark: rgba(75, 74, 74, 1);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.btn {
+  background-color: black;
+  opacity: 0.8;
+}
+
+.btn:hover {
+  background-color: var(--dark);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--dark);
+}
+
+.post-box {
+  margin-bottom: 5rem;
+}
+
+/* h2 {
+    font-family: Josefin Sans;
+}  */
+
+

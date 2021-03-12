@@ -1,0 +1,14 @@
+@import './base.css';
+@import './footer.css';
+@import './blocks/resume.css';
+
+@import 'blocks/latest-posts.css';
+
+
+.block-editor-writing-flow {
+  font-family: var(--bs-font-sans-serif);
+}
+
+.wp-block {
+  max-width: 80%;
+}

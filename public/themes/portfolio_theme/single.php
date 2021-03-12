@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="row">
+<div class="row post-box">
     <div class="col-lg-8 offset-lg-2">
         <?php if (have_posts()): ?>
 
@@ -8,7 +8,7 @@
 
                 <?php if (has_post_thumbnail()) : ?>
                   <div class="mb-3">
-                      <?php the_post_thumbnail('large'); ?>
+                      <?php the_post_thumbnail('medium'); ?>
                   </div>
                 <?php endif; ?>
 
